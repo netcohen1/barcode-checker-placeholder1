@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Advanced Barcode Checker</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h3>Advanced Barcode Checker</h3>
+    <div class="button-container">
+        <button id="findSimilar">Find Similar Products</button>
+        <button id="findAmazon">Find on Amazon</button>
+        <div class="search-container">
+            <input type="text" id="barcodeInput" placeholder="Enter 12 or 13-digit barcode">
+            <button id="checkBarcode">Check Barcode</button>
+        </div>
+    </div>
+    <div id="searchSpinner" style="display: none;">
+        <div class="spinner"></div>
+        <div>Searching...</div>
+    </div>
+    <div id="result"></div>
+    <script src="popup.js"></script>
+</body>
+</html>
